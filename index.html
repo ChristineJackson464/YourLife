@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>YourLife</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="images/logo.png" alt="logo pic">
+    </header>
+
+    <!-- NAVBAR 
+        <nav>
+            <ul class="nav-links">
+                <li><a href="https://christinejackson464.github.io/CunningEdge_1/">Home</a></li>
+                <li><a href="#">The Plan</a></li>
+                <li><a href="#">Mind</a></li>
+                <li><a href="#">Body</a></li>
+            </ul>
+        </nav> -->
+
+    <div class="container">
+
+        <!-- List/ToDo Component -->
+        <div class="toDo-component">
+            <h1>My List of To-Dos</h1>
+            <form id="form">
+                <input type="text" class="input" id="input" placeholder="Enter Your To-Do" autocomplete="off">
+
+                <ul class="todos" id="todos"></ul>
+            </form>
+
+            <small>Left click to show the task has been completed. <br> Right click to delete your To-Do from the list</small>
+            <br>
+        </div>
+        <br>
+    
+        <!-- Notes Component -->
+        <div class="notes-component">
+            <h1>Notes</h1>
+            <button class="add" id="add">
+                <i class="fas fa-plus"></i> Add note
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
+    <script src="ToDo.js"></script>
+
+</body>
+
+</html>
