@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #59405e;
+    background-color: #6610f2;
     font-family: "Big Shoulders Display", cursive;
     height: auto;
     margin: 0;
@@ -16,11 +16,11 @@ body {
 
 /* LOGO */
 header {
-    background-color: rgb(199, 188, 199);
+    background-color: rgba(183, 222, 183, 0.8);
     top: 0;
     height: 10vh;
     width: 100vw;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 1rem rgba(151, 227, 151, 0.8);
 }
 
 img {
