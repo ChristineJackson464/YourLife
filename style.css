@@ -80,9 +80,10 @@ header a:hover{
     width: 100vw;
 }
 
+/* changed height: 35vh to height 100px */
 .notes-component {
     margin: 3%;
-    height: 35vh;
+    height: 100px;
     width: 100vw;
 }
 
