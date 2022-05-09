@@ -18,13 +18,14 @@ body {
 header {
     background-color: rgba(183, 222, 183, 0.8);
     top: 0;
-    height: 10vh;
+    height: 18vh;
     width: 100vw;
     box-shadow: 0 0 1rem rgba(151, 227, 151, 0.8);
+    margin-bottom: 5px;
 }
 
 img {
-    margin-top: -15%;
+    margin-top: -35px;
     margin-left: 75%;
     padding: 0px;
     height: 25vh;
@@ -32,6 +33,39 @@ img {
 }
 
 /* NAVBAR */
+/* NAVBAR A */
+/* header a{
+    display: inline-block;
+    font-size: 100%;
+    color: black;
+    padding: 10px 20px;
+}
+a, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+}
+.nav-left{
+    float: right;
+    margin-right: 50px;
+}
+header a:hover{
+    background-color: #6610f2;;
+}
+
+#home{
+    margin-left: 30px;
+}
+*/
+
+/* NAVBAR B */
+.nav-links {
+    margin-top: -150px;
+    margin-right: 5%;
+    padding: 5px;
+    height: 25vh;
+    width: 25vw;
+}
+
 
 .container {
     display: flex;
@@ -40,10 +74,20 @@ img {
 }
 
 /*  COMPONENTS */
-.notes-component, .toDo-component{
+.toDo-component {
     margin: 3%;
     height: 35vh;
     width: 100vw;
+}
+
+.notes-component {
+    margin: 3%;
+    height: 35vh;
+    width: 100vw;
+}
+
+hr {
+    width: 75vw;
 }
 
 
@@ -60,3 +104,29 @@ form {
     border: none;
     color: #444;
 }
+
+.note {
+    margin: 3%;
+}
+
+.tools {
+    height: auto; 
+    width: 200px;
+}
+
+.tools button { 
+    width: 70px;
+    height: 30px;
+}
+
+.completed {
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+/* @media (max-height: 700px){
+    body {
+      background-color: royalblue;
+    }
+  }
+  */
