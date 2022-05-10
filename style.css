@@ -6,65 +6,39 @@
 }
 
 body {
-    background-color: #6610f2;
+    background-color: #fff;
     font-family: "Big Shoulders Display", cursive;
     height: auto;
     margin: 0;
     padding: 0;
-    color: rgb(194, 180, 194)
+    color: #6610f2;
 }
 
 /* LOGO */
 header {
+    border: 1px solid blue;
     background-color: rgba(183, 222, 183, 0.8);
     top: 0;
-    height: 18vh;
+    height: 15vh;
     width: 100vw;
     box-shadow: 0 0 1rem rgba(151, 227, 151, 0.8);
     margin-bottom: 5px;
 }
 
 img {
-    margin-top: -35px;
+    margin-top: 7px;
     margin-left: 75%;
     padding: 0px;
-    height: 25vh;
-    width: 25vw;
+    height: 12vh;
+    width: 12vw;
 }
 
 /* NAVBAR */
-/* NAVBAR A */
-/* header a{
-    display: inline-block;
-    font-size: 100%;
-    color: black;
-    padding: 10px 20px;
-}
-a, a:visited, a:active{
-    text-decoration: none;
-    color: black;
-}
-.nav-left{
-    float: right;
-    margin-right: 50px;
-}
-header a:hover{
-    background-color: #6610f2;;
-}
-
-#home{
-    margin-left: 30px;
-}
-*/
-
-/* NAVBAR B */
 .nav-links {
-    margin-top: -150px;
+    border: 1px solid red;
+    margin-top: -80px;
     margin-right: 5%;
     padding: 5px;
-    height: 25vh;
-    width: 25vw;
-}
 
 
 .container {
