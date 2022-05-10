@@ -35,7 +35,8 @@ function addTodo(todo) {
         })
         
         // changed from contextmenu to touchmove
-        todoEl.addEventListener('touchmove', (e) => {
+        // moved back to contextmenu
+        todoEl.addEventListener('contextmenu', (e) => {
             e.preventDefault()
 
             todoEl.remove()
